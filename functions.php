@@ -437,12 +437,7 @@ function  getProductsAndUpdateStock(){
 					}
 				}             
 		   }
-		  	$to = 'boldertechno@gmail.com';
-			$subject = 'Test email11';
-			$message = 'Test - '.$post->ID;
-			$headers = "From: The Sender name <customerservice@kiwikitchen.sg>";
-		    //wp_mail( $to, $subject, $message, $headers ); 
-		    //sleep(2);
+		  	
             echo "<br/><br/>";		    
       } // end while
 		echo $count." total records";
